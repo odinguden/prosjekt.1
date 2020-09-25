@@ -1,0 +1,51 @@
+
+body{
+    background-color: lightgray;
+    }
+h1{
+    font-size: 50px;
+    font-family:"Libre Franklin";
+    color: black;
+    }
+h2{
+    font-family: "Libre Franklin";
+    font-size: 25px;
+    color: black;
+    }
+h3{
+    font-family: "Libre Franklin";
+    font-size: 25px;
+    color: floralwhite;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 3;
+}
+a{
+    text-decoration: none;
+    }
+
+.meny {
+    overflow: hidden;
+    background-color:darkslategray;
+    }
+
+.meny a {
+    float: left;
+    font-size: 16px;
+    color: floralwhite;
+    font-family: "Libre Franklin";
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+.meny a:hover{
+    background-color: firebrick
+    }
+.meny a img{
+    padding-bottom:1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-left: 1px;
+}

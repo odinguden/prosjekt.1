@@ -4,29 +4,22 @@
     
     <head>
         <meta charset="utf-8">
-        <title>startside</title>
+        <title>Startside</title>
+        <link rel="stylesheet" href="stil.css">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
 
         <style>
-            body{
-                background-color: lightgray;
-            }
-            h1{
-                font-size: 50px;
-                font-family:"Libre Franklin";
-                color: black;
-            }
-            h2{
-                font-family: "Libre Franklin";
-                font-size: 25px;
-                color: black;
+            table{
+                margin-top: 40px;
+                background-color: darkslategray
             }
             img{
-                margin-right: 20px;
-                margin-left: 20px;
-            }
-            a{
-                text-decoration: none;
+                margin-right:0px;
+                margin-left: 0px;
+                margin-top: 20px;
+                border: 10px;
+                border-style: solid;
+                border-color: darkslategray;
             }
         </style>
         
@@ -34,65 +27,55 @@
     
     
     <body>
-       
-        <table>
-        <tr>
+        <div class="meny">
+            <h3>Heim</h3>
+            <a href="index.html">Heim</a>
+            <a href="video.html">Video</a>
+            <a href="bilder.html">Elevar</a>
             
-            <th>
-                <a href=index.html>
-                   <img src="media/Vestland.png"
-                    width="50"
-                    heigth="50"
-                    title="Vestland"
-                    alt="fylkesvåpen">
-                </a>
-            </th> 
-            
-            <th><h1>Livet På Voss Gymnas</h1></th>
-            
-            </tr>        
-        </table>
-        
-        
+        </div>
+               
         <table style="margin-left: auto; margin-right: auto;">
         <tr >
+
             
             <th>
-                <a href="elevar.html">
-                <img src="media/placeholder.jpg"
-                    width="300"
+                <a href=bilder.html>
+                    <img src="media/video.jpg"
+                    width="399"
                     heigth="300"
                     title="Elevar"
                     alt="Elevar"></a>
-            </th> 
-            
-            <th>
-                <a href=gymaset.html>
-                    <img src="media/20200915_125227.jpg"
-                    width="300"
-                    heigth="300"
-                    title="Gymnaset"
-                    alt="Gymnaset"></a>
             </th>
             
             <th>
                 <a href=video.html>
-                    <img src="media/placeholder.jpg"
-                    width="300"
+                    <img src="media/video.bilde.png"
+                    width="399"
                     heigth="300"
                     title="Video"
                     alt="Video"></a>
+            </th>
+            
+            <th>
+                <a href=gymaset.html>
+                    <img src="media/9.jpg"
+                    width="399"
+                    heigth="300"
+                    title="Bilde"
+                    alt="Bilde"></a>
             </th>
             
             </tr>
             
             <tr>
             
-                <th><a href=elevar.html> <h2>Elvevar</h2> </a> </th>
+                <th><a href=elevar.html> <h2 style="color: floralwhite">Elevar</h2> </a> </th>
                 
-                <th><a href="gymaset.html"><h2>Gymnaset</h2></a></th>
                 
-                <th><a href="video.html"><h2>Video</h2></a></th>
+                <th><a href="video.html"><h2 style="color: floralwhite">Video</h2></a></th>
+                
+                <th><a href="gymaset.html"><h2 style="color: floralwhite">Bilder</h2></a></th>
             
             </tr>
         </table>

@@ -4,24 +4,40 @@
     
     <head>
         <meta charset="utf-8">
-        <title>Prosjekt</title>
-        
-        
+        <title>Video</title>
+        <link rel="stylesheet" href="stil.css">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+        <style>
+            body{
+                text-align: center
+            }
+            video{
+                margin-top: 50px;
+                border:10px;
+                border-style: solid;
+                border-color: darkslategray;
+            }
+        </style>
     </head>
     
     
     <body>
-        
         <body>
-        <h1>videotest</h1>
-        
+         <div class="meny">
+            <h3>Video</h3>
+            <a href="index.html">Heim</a>
+            <a href="video.html">Video</a>
+            <a href="bilder.html">Elevar</a>
+            
+        </div>
+            
         <video src=media/gymnas.video.mp4 
-               controls mute autoplay loop poster="media/gymas.bilde.PNG"
-               width="508"
-               heigth="339"
-               
+               controls mute autoplay loop 
+               poster="media/gymas.bilde.PNG"
+               width="800"
+               class="center"
         ></video>
         
     </body>
 
-</html>
+    </html>
